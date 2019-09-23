@@ -20,6 +20,6 @@ test:
   database: iverfeng_development
 
 production:
-  pool: 5
+  <<: *default
   adapter: postgresql
   database: iverfeng_development
