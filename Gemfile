@@ -64,7 +64,7 @@ group :test do
 end
 
 group :production do
-  # gem 'pg', '0.20.0'
+  gem 'pg', '0.20.0'
   # The Ruby cloud services library. Supports all major cloud providers including AWS, Rackspace, Linode, Blue Box, StormOnDemand, and many others. Full support for most AWS services including EC2, S3, CloudWatch, SimpleDB, ELB, and RDS.
   gem 'fog', '~> 2.2'
 end
