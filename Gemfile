@@ -86,3 +86,17 @@ gem 'carrierwave', '~> 2.0', '>= 2.0.1'
 
 # Manipulate images with minimal use of memory via ImageMagick / GraphicsMagick
 gem 'mini_magick', '~> 4.9', '>= 4.9.5'
+
+# A Ruby framework for rapid ApplicationApi development with great conventions.
+gem 'grape', '~> 1.2', '>= 1.2.5'
+# Add auto generated documentation to your Grape ApplicationApi that can be displayed with Swagger.
+gem 'grape-swagger', '~> 0.33.0'
+# Swagger UI as Rails Engine for grape-swagger gem
+gem 'grape-swagger-rails', '~> 0.3.1'
+# Grape swagger adapter to support grape-entity object parsing
+gem 'grape-swagger-entity', '~> 0.3.3'
+# Grape swagger adapter to support representable object parsing
+gem 'grape-swagger-representable', '~> 0.2.2'
+
+# Middleware that will make Rack-based apps CORS compatible.
+gem 'rack-cors', '~> 1.1'
